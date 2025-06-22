@@ -99,7 +99,5 @@ on t1.PersonId = t2.PersonId;
 
 (5) CROSS JOIN 交叉连接 结果是笛卡尔积，排列组合的所有情况
 
-![image-20250622180025999](./images/image-20250622180025999.png)
-
-
+![image-20250622180025999](images/image-20250622180025999.png)
 
