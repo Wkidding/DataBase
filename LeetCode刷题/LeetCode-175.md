@@ -70,8 +70,11 @@ addressId = 1 包含了 personId = 2 的地址信息。
 # 思路
 
 1、本题中，Person表没有city和 state，因此查询时需要关联Address表。
+
 2、但Address表中city和 state可能有记录没有地址信息
+
 3、使用默认的内连接，如果遇到null会查不出来，所以使用外连接
+
 4、Person表的信息是全的，Address表的信息可能不全。所以外连接时，显示Person表全部信息
 
 ```mysql
